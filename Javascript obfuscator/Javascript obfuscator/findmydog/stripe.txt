@@ -1,0 +1,2620 @@
+Información que se pasa al stripe  {"amount":"10","currency":"USD","source":"tok_1K7D6bDw5fiAZsOqc5w1qCwU","description":"donaci\u00f3n","fecha":"16-12-2021 02:06:21"}Datos que se recibe de stripe  Stripe\Charge JSON: {
+    "id": "ch_3K7D6fDw5fiAZsOq21RiHmWz",
+    "object": "charge",
+    "amount": 1000,
+    "amount_captured": 1000,
+    "amount_refunded": 0,
+    "application": null,
+    "application_fee": null,
+    "application_fee_amount": null,
+    "balance_transaction": "txn_3K7D6fDw5fiAZsOq22IntsMq",
+    "billing_details": {
+        "address": {
+            "city": null,
+            "country": null,
+            "line1": null,
+            "line2": null,
+            "postal_code": null,
+            "state": null
+        },
+        "email": null,
+        "name": "cgarciap1220@gmail.com",
+        "phone": null
+    },
+    "calculated_statement_descriptor": "FIND MY DOG PR",
+    "captured": true,
+    "created": 1639634781,
+    "currency": "usd",
+    "customer": null,
+    "description": "donaci\u00f3n",
+    "destination": null,
+    "dispute": null,
+    "disputed": false,
+    "failure_code": null,
+    "failure_message": null,
+    "fraud_details": [],
+    "invoice": null,
+    "livemode": true,
+    "metadata": [],
+    "on_behalf_of": null,
+    "order": null,
+    "outcome": {
+        "network_status": "approved_by_network",
+        "reason": null,
+        "risk_level": "normal",
+        "seller_message": "Payment complete.",
+        "type": "authorized"
+    },
+    "paid": true,
+    "payment_intent": null,
+    "payment_method": "card_1K7D6aDw5fiAZsOqYnlMkTOn",
+    "payment_method_details": {
+        "card": {
+            "brand": "visa",
+            "checks": {
+                "address_line1_check": null,
+                "address_postal_code_check": null,
+                "cvc_check": "pass"
+            },
+            "country": "PR",
+            "exp_month": 10,
+            "exp_year": 2023,
+            "fingerprint": "tKE2tb8TPxud7xrX",
+            "funding": "credit",
+            "installments": null,
+            "last4": "2216",
+            "network": "visa",
+            "three_d_secure": null,
+            "wallet": null
+        },
+        "type": "card"
+    },
+    "receipt_email": null,
+    "receipt_number": null,
+    "receipt_url": "https:\/\/pay.stripe.com\/receipts\/acct_1Ad2wkDw5fiAZsOq\/ch_3K7D6fDw5fiAZsOq21RiHmWz\/rcpt_KmmgBafmkxPIcYq9dkdZD083fey4leK",
+    "refunded": false,
+    "refunds": {
+        "object": "list",
+        "data": [],
+        "has_more": false,
+        "total_count": 0,
+        "url": "\/v1\/charges\/ch_3K7D6fDw5fiAZsOq21RiHmWz\/refunds"
+    },
+    "review": null,
+    "shipping": null,
+    "source": {
+        "id": "card_1K7D6aDw5fiAZsOqYnlMkTOn",
+        "object": "card",
+        "address_city": null,
+        "address_country": null,
+        "address_line1": null,
+        "address_line1_check": null,
+        "address_line2": null,
+        "address_state": null,
+        "address_zip": null,
+        "address_zip_check": null,
+        "brand": "Visa",
+        "country": "PR",
+        "customer": null,
+        "cvc_check": "pass",
+        "dynamic_last4": null,
+        "exp_month": 10,
+        "exp_year": 2023,
+        "fingerprint": "tKE2tb8TPxud7xrX",
+        "funding": "credit",
+        "last4": "2216",
+        "metadata": [],
+        "name": "cgarciap1220@gmail.com",
+        "tokenization_method": null
+    },
+    "source_transfer": null,
+    "statement_descriptor": null,
+    "statement_descriptor_suffix": null,
+    "status": "succeeded",
+    "transfer_data": null,
+    "transfer_group": null
+}====================================================================================================
+DATOS ENVIADOS A STRIPE
+Array
+(
+    [amount] => 100
+    [currency] => usd
+    [source] => tok_1K7YvADso2T7loLez8aFysYi
+    [description] => donación
+    [fecha] => 17-12-2021 01:24:01
+)
+
+RESPUESTA DE STRIPE
+Stripe\Charge Object
+(
+    [id] => ch_3K7YvEDso2T7loLe0QvET67K
+    [object] => charge
+    [amount] => 100
+    [amount_captured] => 100
+    [amount_refunded] => 0
+    [application] => 
+    [application_fee] => 
+    [application_fee_amount] => 
+    [balance_transaction] => txn_3K7YvEDso2T7loLe0XOgBnzj
+    [billing_details] => Stripe\StripeObject Object
+        (
+            [address] => Stripe\StripeObject Object
+                (
+                    [city] => 
+                    [country] => 
+                    [line1] => 
+                    [line2] => 
+                    [postal_code] => 
+                    [state] => 
+                )
+
+            [email] => 
+            [name] => cgarciap1220@gmail.com
+            [phone] => 
+        )
+
+    [calculated_statement_descriptor] => Stripe
+    [captured] => 1
+    [created] => 1639718640
+    [currency] => usd
+    [customer] => 
+    [description] => donación
+    [destination] => 
+    [dispute] => 
+    [disputed] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => Array
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 
+    [metadata] => Stripe\StripeObject Object
+        (
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => Stripe\StripeObject Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [risk_score] => 59
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [payment_intent] => 
+    [payment_method] => card_1K7YvADso2T7loLeZyYSgB9C
+    [payment_method_details] => Stripe\StripeObject Object
+        (
+            [card] => Stripe\StripeObject Object
+                (
+                    [brand] => visa
+                    [checks] => Stripe\StripeObject Object
+                        (
+                            [address_line1_check] => 
+                            [address_postal_code_check] => 
+                            [cvc_check] => pass
+                        )
+
+                    [country] => US
+                    [exp_month] => 10
+                    [exp_year] => 2023
+                    [fingerprint] => p3TmwJqBEQOlvxVe
+                    [funding] => credit
+                    [installments] => 
+                    [last4] => 4242
+                    [network] => visa
+                    [three_d_secure] => 
+                    [wallet] => 
+                )
+
+            [type] => card
+        )
+
+    [receipt_email] => 
+    [receipt_number] => 
+    [receipt_url] => https://pay.stripe.com/receipts/acct_1EVKgSDso2T7loLe/ch_3K7YvEDso2T7loLe0QvET67K/rcpt_Kn9DNW9TyQLUp3A97ha4xdQAlDoCKYB
+    [refunded] => 
+    [refunds] => Stripe\Collection Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_3K7YvEDso2T7loLe0QvET67K/refunds
+        )
+
+    [review] => 
+    [shipping] => 
+    [source] => Stripe\Card Object
+        (
+            [id] => card_1K7YvADso2T7loLeZyYSgB9C
+            [object] => card
+            [address_city] => 
+            [address_country] => 
+            [address_line1] => 
+            [address_line1_check] => 
+            [address_line2] => 
+            [address_state] => 
+            [address_zip] => 
+            [address_zip_check] => 
+            [brand] => Visa
+            [country] => US
+            [customer] => 
+            [cvc_check] => pass
+            [dynamic_last4] => 
+            [exp_month] => 10
+            [exp_year] => 2023
+            [fingerprint] => p3TmwJqBEQOlvxVe
+            [funding] => credit
+            [last4] => 4242
+            [metadata] => Stripe\StripeObject Object
+                (
+                )
+
+            [name] => cgarciap1220@gmail.com
+            [tokenization_method] => 
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [statement_descriptor_suffix] => 
+    [status] => succeeded
+    [transfer_data] => 
+    [transfer_group] => 
+)
+
+====================================================================================================
+====================================================================================================
+INTENTO DE PAGO2021-12-19 13:07:35
+DATOS ENVIADOS A STRIPE
+amount=30
+currency=usd
+id_reporte=23194
+====================================================================================================
+====================================================================================================
+DATOS ENVIADOS A STRIPE
+Array
+(
+    [amount] => 3000
+    [currency] => usd
+    [source] => tok_1K8SrADw5fiAZsOqS04KpqN7
+    [description] => Destaque del reporte 23194
+    [fecha] => 19-12-2021 13:07:37
+)
+
+RESPUESTA DE STRIPE
+Stripe\Charge Object
+(
+    [id] => ch_3K8SrEDw5fiAZsOq1BfjPerB
+    [object] => charge
+    [amount] => 3000
+    [amount_captured] => 3000
+    [amount_refunded] => 0
+    [application] => 
+    [application_fee] => 
+    [application_fee_amount] => 
+    [balance_transaction] => txn_3K8SrEDw5fiAZsOq1SGTKKse
+    [billing_details] => Stripe\StripeObject Object
+        (
+            [address] => Stripe\StripeObject Object
+                (
+                    [city] => 
+                    [country] => 
+                    [line1] => 
+                    [line2] => 
+                    [postal_code] => 
+                    [state] => 
+                )
+
+            [email] => 
+            [name] => a@a.a
+            [phone] => 
+        )
+
+    [calculated_statement_descriptor] => FIND MY DOG PR
+    [captured] => 1
+    [created] => 1639933656
+    [currency] => usd
+    [customer] => 
+    [description] => Destaque del reporte 23194
+    [destination] => 
+    [dispute] => 
+    [disputed] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => Array
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 1
+    [metadata] => Stripe\StripeObject Object
+        (
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => Stripe\StripeObject Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [payment_intent] => 
+    [payment_method] => card_1K8SrADw5fiAZsOqNWeK3fTt
+    [payment_method_details] => Stripe\StripeObject Object
+        (
+            [card] => Stripe\StripeObject Object
+                (
+                    [brand] => visa
+                    [checks] => Stripe\StripeObject Object
+                        (
+                            [address_line1_check] => 
+                            [address_postal_code_check] => 
+                            [cvc_check] => pass
+                        )
+
+                    [country] => PR
+                    [exp_month] => 10
+                    [exp_year] => 2023
+                    [fingerprint] => tKE2tb8TPxud7xrX
+                    [funding] => credit
+                    [installments] => 
+                    [last4] => 2216
+                    [network] => visa
+                    [three_d_secure] => 
+                    [wallet] => 
+                )
+
+            [type] => card
+        )
+
+    [receipt_email] => 
+    [receipt_number] => 
+    [receipt_url] => https://pay.stripe.com/receipts/acct_1Ad2wkDw5fiAZsOq/ch_3K8SrEDw5fiAZsOq1BfjPerB/rcpt_Ko51SC42mIPWqhFzbH9gF0vFCPv3iMV
+    [refunded] => 
+    [refunds] => Stripe\Collection Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_3K8SrEDw5fiAZsOq1BfjPerB/refunds
+        )
+
+    [review] => 
+    [shipping] => 
+    [source] => Stripe\Card Object
+        (
+            [id] => card_1K8SrADw5fiAZsOqNWeK3fTt
+            [object] => card
+            [address_city] => 
+            [address_country] => 
+            [address_line1] => 
+            [address_line1_check] => 
+            [address_line2] => 
+            [address_state] => 
+            [address_zip] => 
+            [address_zip_check] => 
+            [brand] => Visa
+            [country] => PR
+            [customer] => 
+            [cvc_check] => pass
+            [dynamic_last4] => 
+            [exp_month] => 10
+            [exp_year] => 2023
+            [fingerprint] => tKE2tb8TPxud7xrX
+            [funding] => credit
+            [last4] => 2216
+            [metadata] => Stripe\StripeObject Object
+                (
+                )
+
+            [name] => a@a.a
+            [tokenization_method] => 
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [statement_descriptor_suffix] => 
+    [status] => succeeded
+    [transfer_data] => 
+    [transfer_group] => 
+)
+
+====================================================================================================
+====================================================================================================
+INTENTO DE PAGO2021-12-19 13:29:09
+DATOS ENVIADOS A STRIPE
+amount=1500
+currency=usd
+id_reporte=23196
+====================================================================================================
+====================================================================================================
+INTENTO DE PAGO2021-12-19 13:32:40
+DATOS ENVIADOS A STRIPE
+amount=20
+currency=usd
+id_reporte=23197
+====================================================================================================
+====================================================================================================
+DATOS ENVIADOS A STRIPE
+Array
+(
+    [amount] => 2000
+    [currency] => usd
+    [source] => tok_1K8TFSDw5fiAZsOqdEbxL0AO
+    [description] => Destaque del reporte 23197
+    [fecha] => 19-12-2021 13:32:42
+)
+
+RESPUESTA DE STRIPE
+Stripe\Charge Object
+(
+    [id] => ch_3K8TFUDw5fiAZsOq2cMwOAcN
+    [object] => charge
+    [amount] => 2000
+    [amount_captured] => 2000
+    [amount_refunded] => 0
+    [application] => 
+    [application_fee] => 
+    [application_fee_amount] => 
+    [balance_transaction] => txn_3K8TFUDw5fiAZsOq2llmQMSa
+    [billing_details] => Stripe\StripeObject Object
+        (
+            [address] => Stripe\StripeObject Object
+                (
+                    [city] => 
+                    [country] => 
+                    [line1] => 
+                    [line2] => 
+                    [postal_code] => 
+                    [state] => 
+                )
+
+            [email] => 
+            [name] => trendshairstudiopr@gmal.com
+            [phone] => 
+        )
+
+    [calculated_statement_descriptor] => FIND MY DOG PR
+    [captured] => 1
+    [created] => 1639935160
+    [currency] => usd
+    [customer] => 
+    [description] => Destaque del reporte 23197
+    [destination] => 
+    [dispute] => 
+    [disputed] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => Array
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 1
+    [metadata] => Stripe\StripeObject Object
+        (
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => Stripe\StripeObject Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [payment_intent] => 
+    [payment_method] => card_1K8TFRDw5fiAZsOqc5O0tXvO
+    [payment_method_details] => Stripe\StripeObject Object
+        (
+            [card] => Stripe\StripeObject Object
+                (
+                    [brand] => visa
+                    [checks] => Stripe\StripeObject Object
+                        (
+                            [address_line1_check] => 
+                            [address_postal_code_check] => 
+                            [cvc_check] => pass
+                        )
+
+                    [country] => PR
+                    [exp_month] => 10
+                    [exp_year] => 2023
+                    [fingerprint] => tKE2tb8TPxud7xrX
+                    [funding] => credit
+                    [installments] => 
+                    [last4] => 2216
+                    [network] => visa
+                    [three_d_secure] => 
+                    [wallet] => 
+                )
+
+            [type] => card
+        )
+
+    [receipt_email] => 
+    [receipt_number] => 
+    [receipt_url] => https://pay.stripe.com/receipts/acct_1Ad2wkDw5fiAZsOq/ch_3K8TFUDw5fiAZsOq2cMwOAcN/rcpt_Ko5Qnj86Xz7wLOS6zz8MY2ELOJm5ws3
+    [refunded] => 
+    [refunds] => Stripe\Collection Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_3K8TFUDw5fiAZsOq2cMwOAcN/refunds
+        )
+
+    [review] => 
+    [shipping] => 
+    [source] => Stripe\Card Object
+        (
+            [id] => card_1K8TFRDw5fiAZsOqc5O0tXvO
+            [object] => card
+            [address_city] => 
+            [address_country] => 
+            [address_line1] => 
+            [address_line1_check] => 
+            [address_line2] => 
+            [address_state] => 
+            [address_zip] => 
+            [address_zip_check] => 
+            [brand] => Visa
+            [country] => PR
+            [customer] => 
+            [cvc_check] => pass
+            [dynamic_last4] => 
+            [exp_month] => 10
+            [exp_year] => 2023
+            [fingerprint] => tKE2tb8TPxud7xrX
+            [funding] => credit
+            [last4] => 2216
+            [metadata] => Stripe\StripeObject Object
+                (
+                )
+
+            [name] => trendshairstudiopr@gmal.com
+            [tokenization_method] => 
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [statement_descriptor_suffix] => 
+    [status] => succeeded
+    [transfer_data] => 
+    [transfer_group] => 
+)
+
+====================================================================================================
+====================================================================================================
+INTENTO DE PAGO2021-12-19 13:45:18
+DATOS ENVIADOS A STRIPE
+amount=15
+currency=usd
+id_reporte=23198
+====================================================================================================
+====================================================================================================
+DATOS ENVIADOS A STRIPE
+Array
+(
+    [amount] => 1500
+    [currency] => usd
+    [source] => tok_1K8TRfDw5fiAZsOqIH5tC3By
+    [description] => Destaque del reporte 23198
+    [fecha] => 19-12-2021 13:45:20
+)
+
+RESPUESTA DE STRIPE
+Stripe\Charge Object
+(
+    [id] => ch_3K8TRjDw5fiAZsOq02R81O89
+    [object] => charge
+    [amount] => 1500
+    [amount_captured] => 1500
+    [amount_refunded] => 0
+    [application] => 
+    [application_fee] => 
+    [application_fee_amount] => 
+    [balance_transaction] => txn_3K8TRjDw5fiAZsOq02KGJhFP
+    [billing_details] => Stripe\StripeObject Object
+        (
+            [address] => Stripe\StripeObject Object
+                (
+                    [city] => 
+                    [country] => 
+                    [line1] => 
+                    [line2] => 
+                    [postal_code] => 
+                    [state] => 
+                )
+
+            [email] => 
+            [name] => a@a.a
+            [phone] => 
+        )
+
+    [calculated_statement_descriptor] => FIND MY DOG PR
+    [captured] => 1
+    [created] => 1639935919
+    [currency] => usd
+    [customer] => 
+    [description] => Destaque del reporte 23198
+    [destination] => 
+    [dispute] => 
+    [disputed] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => Array
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 1
+    [metadata] => Stripe\StripeObject Object
+        (
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => Stripe\StripeObject Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [payment_intent] => 
+    [payment_method] => card_1K8TRfDw5fiAZsOqRfIM977M
+    [payment_method_details] => Stripe\StripeObject Object
+        (
+            [card] => Stripe\StripeObject Object
+                (
+                    [brand] => visa
+                    [checks] => Stripe\StripeObject Object
+                        (
+                            [address_line1_check] => 
+                            [address_postal_code_check] => 
+                            [cvc_check] => pass
+                        )
+
+                    [country] => PR
+                    [exp_month] => 10
+                    [exp_year] => 2023
+                    [fingerprint] => tKE2tb8TPxud7xrX
+                    [funding] => credit
+                    [installments] => 
+                    [last4] => 2216
+                    [network] => visa
+                    [three_d_secure] => 
+                    [wallet] => 
+                )
+
+            [type] => card
+        )
+
+    [receipt_email] => 
+    [receipt_number] => 
+    [receipt_url] => https://pay.stripe.com/receipts/acct_1Ad2wkDw5fiAZsOq/ch_3K8TRjDw5fiAZsOq02R81O89/rcpt_Ko5c5O5H0UhfYmym1ksP5UQbTBTrRvM
+    [refunded] => 
+    [refunds] => Stripe\Collection Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_3K8TRjDw5fiAZsOq02R81O89/refunds
+        )
+
+    [review] => 
+    [shipping] => 
+    [source] => Stripe\Card Object
+        (
+            [id] => card_1K8TRfDw5fiAZsOqRfIM977M
+            [object] => card
+            [address_city] => 
+            [address_country] => 
+            [address_line1] => 
+            [address_line1_check] => 
+            [address_line2] => 
+            [address_state] => 
+            [address_zip] => 
+            [address_zip_check] => 
+            [brand] => Visa
+            [country] => PR
+            [customer] => 
+            [cvc_check] => pass
+            [dynamic_last4] => 
+            [exp_month] => 10
+            [exp_year] => 2023
+            [fingerprint] => tKE2tb8TPxud7xrX
+            [funding] => credit
+            [last4] => 2216
+            [metadata] => Stripe\StripeObject Object
+                (
+                )
+
+            [name] => a@a.a
+            [tokenization_method] => 
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [statement_descriptor_suffix] => 
+    [status] => succeeded
+    [transfer_data] => 
+    [transfer_group] => 
+)
+
+====================================================================================================
+====================================================================================================
+INTENTO DE PAGO2021-12-20 21:02:22
+DATOS ENVIADOS A STRIPE
+amount=20
+currency=usd
+id_reporte=22874
+====================================================================================================
+====================================================================================================
+DATOS ENVIADOS A STRIPE
+Array
+(
+    [amount] => 2000
+    [currency] => usd
+    [source] => tok_1K8wkADw5fiAZsOq8mSC4KQp
+    [description] => Destaque del reporte 22874
+    [fecha] => 20-12-2021 21:02:23
+)
+
+RESPUESTA DE STRIPE
+Stripe\Charge Object
+(
+    [id] => ch_3K8wkEDw5fiAZsOq1Vn3d6ju
+    [object] => charge
+    [amount] => 2000
+    [amount_captured] => 2000
+    [amount_refunded] => 0
+    [application] => 
+    [application_fee] => 
+    [application_fee_amount] => 
+    [balance_transaction] => txn_3K8wkEDw5fiAZsOq1YKQ2vJF
+    [billing_details] => Stripe\StripeObject Object
+        (
+            [address] => Stripe\StripeObject Object
+                (
+                    [city] => 
+                    [country] => 
+                    [line1] => 
+                    [line2] => 
+                    [postal_code] => 
+                    [state] => 
+                )
+
+            [email] => 
+            [name] => shirleyd.figueroa@yahoo.com
+            [phone] => 
+        )
+
+    [calculated_statement_descriptor] => FIND MY DOG PR
+    [captured] => 1
+    [created] => 1640048542
+    [currency] => usd
+    [customer] => 
+    [description] => Destaque del reporte 22874
+    [destination] => 
+    [dispute] => 
+    [disputed] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => Array
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 1
+    [metadata] => Stripe\StripeObject Object
+        (
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => Stripe\StripeObject Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [payment_intent] => 
+    [payment_method] => card_1K8wkADw5fiAZsOqFv5eM9CK
+    [payment_method_details] => Stripe\StripeObject Object
+        (
+            [card] => Stripe\StripeObject Object
+                (
+                    [brand] => amex
+                    [checks] => Stripe\StripeObject Object
+                        (
+                            [address_line1_check] => 
+                            [address_postal_code_check] => 
+                            [cvc_check] => pass
+                        )
+
+                    [country] => US
+                    [exp_month] => 10
+                    [exp_year] => 2026
+                    [fingerprint] => Fap9iOfXFftVRSYc
+                    [funding] => credit
+                    [installments] => 
+                    [last4] => 2012
+                    [network] => amex
+                    [three_d_secure] => 
+                    [wallet] => 
+                )
+
+            [type] => card
+        )
+
+    [receipt_email] => 
+    [receipt_number] => 
+    [receipt_url] => https://pay.stripe.com/receipts/acct_1Ad2wkDw5fiAZsOq/ch_3K8wkEDw5fiAZsOq1Vn3d6ju/rcpt_KoZuZibi2Rqc5XFGtBgPZeylnpD5oW4
+    [refunded] => 
+    [refunds] => Stripe\Collection Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_3K8wkEDw5fiAZsOq1Vn3d6ju/refunds
+        )
+
+    [review] => 
+    [shipping] => 
+    [source] => Stripe\Card Object
+        (
+            [id] => card_1K8wkADw5fiAZsOqFv5eM9CK
+            [object] => card
+            [address_city] => 
+            [address_country] => 
+            [address_line1] => 
+            [address_line1_check] => 
+            [address_line2] => 
+            [address_state] => 
+            [address_zip] => 
+            [address_zip_check] => 
+            [brand] => American Express
+            [country] => US
+            [customer] => 
+            [cvc_check] => pass
+            [dynamic_last4] => 
+            [exp_month] => 10
+            [exp_year] => 2026
+            [fingerprint] => Fap9iOfXFftVRSYc
+            [funding] => credit
+            [last4] => 2012
+            [metadata] => Stripe\StripeObject Object
+                (
+                )
+
+            [name] => shirleyd.figueroa@yahoo.com
+            [tokenization_method] => 
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [statement_descriptor_suffix] => 
+    [status] => succeeded
+    [transfer_data] => 
+    [transfer_group] => 
+)
+
+====================================================================================================
+====================================================================================================
+INTENTO DE PAGO2021-12-20 22:21:56
+DATOS ENVIADOS A STRIPE
+amount=30
+currency=usd
+id_reporte=23226
+====================================================================================================
+====================================================================================================
+DATOS ENVIADOS A STRIPE
+Array
+(
+    [amount] => 3000
+    [currency] => usd
+    [source] => tok_1K8xzADw5fiAZsOq6W2D3rbU
+    [description] => Destaque del reporte 23226
+    [fecha] => 20-12-2021 22:21:57
+)
+
+RESPUESTA DE STRIPE
+Stripe\Charge Object
+(
+    [id] => ch_3K8xzEDw5fiAZsOq2KXS7BZH
+    [object] => charge
+    [amount] => 3000
+    [amount_captured] => 3000
+    [amount_refunded] => 0
+    [application] => 
+    [application_fee] => 
+    [application_fee_amount] => 
+    [balance_transaction] => txn_3K8xzEDw5fiAZsOq2BmkOv16
+    [billing_details] => Stripe\StripeObject Object
+        (
+            [address] => Stripe\StripeObject Object
+                (
+                    [city] => 
+                    [country] => 
+                    [line1] => 
+                    [line2] => 
+                    [postal_code] => 
+                    [state] => 
+                )
+
+            [email] => 
+            [name] => widalys_agosto_cuevas@yahoo.com
+            [phone] => 
+        )
+
+    [calculated_statement_descriptor] => FIND MY DOG PR
+    [captured] => 1
+    [created] => 1640053316
+    [currency] => usd
+    [customer] => 
+    [description] => Destaque del reporte 23226
+    [destination] => 
+    [dispute] => 
+    [disputed] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => Array
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 1
+    [metadata] => Stripe\StripeObject Object
+        (
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => Stripe\StripeObject Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [payment_intent] => 
+    [payment_method] => card_1K8xzADw5fiAZsOqGHyzBfXB
+    [payment_method_details] => Stripe\StripeObject Object
+        (
+            [card] => Stripe\StripeObject Object
+                (
+                    [brand] => visa
+                    [checks] => Stripe\StripeObject Object
+                        (
+                            [address_line1_check] => 
+                            [address_postal_code_check] => 
+                            [cvc_check] => pass
+                        )
+
+                    [country] => PR
+                    [exp_month] => 7
+                    [exp_year] => 2025
+                    [fingerprint] => pfInBJxV3vQ277Dm
+                    [funding] => debit
+                    [installments] => 
+                    [last4] => 0552
+                    [network] => visa
+                    [three_d_secure] => 
+                    [wallet] => 
+                )
+
+            [type] => card
+        )
+
+    [receipt_email] => 
+    [receipt_number] => 
+    [receipt_url] => https://pay.stripe.com/receipts/acct_1Ad2wkDw5fiAZsOq/ch_3K8xzEDw5fiAZsOq2KXS7BZH/rcpt_KobBUZVXQZ4cxB68Jx8Cw4eQdla969E
+    [refunded] => 
+    [refunds] => Stripe\Collection Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_3K8xzEDw5fiAZsOq2KXS7BZH/refunds
+        )
+
+    [review] => 
+    [shipping] => 
+    [source] => Stripe\Card Object
+        (
+            [id] => card_1K8xzADw5fiAZsOqGHyzBfXB
+            [object] => card
+            [address_city] => 
+            [address_country] => 
+            [address_line1] => 
+            [address_line1_check] => 
+            [address_line2] => 
+            [address_state] => 
+            [address_zip] => 
+            [address_zip_check] => 
+            [brand] => Visa
+            [country] => PR
+            [customer] => 
+            [cvc_check] => pass
+            [dynamic_last4] => 
+            [exp_month] => 7
+            [exp_year] => 2025
+            [fingerprint] => pfInBJxV3vQ277Dm
+            [funding] => debit
+            [last4] => 0552
+            [metadata] => Stripe\StripeObject Object
+                (
+                )
+
+            [name] => widalys_agosto_cuevas@yahoo.com
+            [tokenization_method] => 
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [statement_descriptor_suffix] => 
+    [status] => succeeded
+    [transfer_data] => 
+    [transfer_group] => 
+)
+
+====================================================================================================
+====================================================================================================
+INTENTO DE PAGO2021-12-21 11:17:21
+DATOS ENVIADOS A STRIPE
+amount=20
+currency=usd
+id_reporte=23232
+====================================================================================================
+====================================================================================================
+DATOS ENVIADOS A STRIPE
+Array
+(
+    [amount] => 2000
+    [currency] => usd
+    [source] => tok_1K9A5ZDw5fiAZsOqgqQssy2w
+    [description] => Destaque del reporte 23232
+    [fecha] => 21-12-2021 11:17:23
+)
+
+RESPUESTA DE STRIPE
+Stripe\Charge Object
+(
+    [id] => ch_3K9A5dDw5fiAZsOq01Kt6Glp
+    [object] => charge
+    [amount] => 2000
+    [amount_captured] => 2000
+    [amount_refunded] => 0
+    [application] => 
+    [application_fee] => 
+    [application_fee_amount] => 
+    [balance_transaction] => txn_3K9A5dDw5fiAZsOq0klhuuLf
+    [billing_details] => Stripe\StripeObject Object
+        (
+            [address] => Stripe\StripeObject Object
+                (
+                    [city] => 
+                    [country] => 
+                    [line1] => 
+                    [line2] => 
+                    [postal_code] => 
+                    [state] => 
+                )
+
+            [email] => 
+            [name] => despacholegalnsa@gmail.com
+            [phone] => 
+        )
+
+    [calculated_statement_descriptor] => FIND MY DOG PR
+    [captured] => 1
+    [created] => 1640099841
+    [currency] => usd
+    [customer] => 
+    [description] => Destaque del reporte 23232
+    [destination] => 
+    [dispute] => 
+    [disputed] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => Array
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 1
+    [metadata] => Stripe\StripeObject Object
+        (
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => Stripe\StripeObject Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [payment_intent] => 
+    [payment_method] => card_1K9A5ZDw5fiAZsOqro9uTK1w
+    [payment_method_details] => Stripe\StripeObject Object
+        (
+            [card] => Stripe\StripeObject Object
+                (
+                    [brand] => visa
+                    [checks] => Stripe\StripeObject Object
+                        (
+                            [address_line1_check] => 
+                            [address_postal_code_check] => 
+                            [cvc_check] => pass
+                        )
+
+                    [country] => PR
+                    [exp_month] => 8
+                    [exp_year] => 2026
+                    [fingerprint] => fyszMcDMdqob4jeQ
+                    [funding] => debit
+                    [installments] => 
+                    [last4] => 4188
+                    [network] => visa
+                    [three_d_secure] => 
+                    [wallet] => 
+                )
+
+            [type] => card
+        )
+
+    [receipt_email] => 
+    [receipt_number] => 
+    [receipt_url] => https://pay.stripe.com/receipts/acct_1Ad2wkDw5fiAZsOq/ch_3K9A5dDw5fiAZsOq01Kt6Glp/rcpt_Konh8NcNNeF4LMPYMvDaJdB7gYz5kv1
+    [refunded] => 
+    [refunds] => Stripe\Collection Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_3K9A5dDw5fiAZsOq01Kt6Glp/refunds
+        )
+
+    [review] => 
+    [shipping] => 
+    [source] => Stripe\Card Object
+        (
+            [id] => card_1K9A5ZDw5fiAZsOqro9uTK1w
+            [object] => card
+            [address_city] => 
+            [address_country] => 
+            [address_line1] => 
+            [address_line1_check] => 
+            [address_line2] => 
+            [address_state] => 
+            [address_zip] => 
+            [address_zip_check] => 
+            [brand] => Visa
+            [country] => PR
+            [customer] => 
+            [cvc_check] => pass
+            [dynamic_last4] => 
+            [exp_month] => 8
+            [exp_year] => 2026
+            [fingerprint] => fyszMcDMdqob4jeQ
+            [funding] => debit
+            [last4] => 4188
+            [metadata] => Stripe\StripeObject Object
+                (
+                )
+
+            [name] => despacholegalnsa@gmail.com
+            [tokenization_method] => 
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [statement_descriptor_suffix] => 
+    [status] => succeeded
+    [transfer_data] => 
+    [transfer_group] => 
+)
+
+====================================================================================================
+====================================================================================================
+INTENTO DE PAGO2021-12-23 14:12:38
+DATOS ENVIADOS A STRIPE
+amount=30
+currency=usd
+id_reporte=23272
+====================================================================================================
+====================================================================================================
+DATOS ENVIADOS A STRIPE
+Array
+(
+    [amount] => 3000
+    [currency] => usd
+    [source] => tok_1K9vmIDw5fiAZsOqAPGDJIxh
+    [description] => Destaque del reporte 23272
+    [fecha] => 23-12-2021 14:12:40
+)
+
+RESPUESTA DE STRIPE
+Stripe\Charge Object
+(
+    [id] => ch_3K9vmMDw5fiAZsOq19o6Btkf
+    [object] => charge
+    [amount] => 3000
+    [amount_captured] => 3000
+    [amount_refunded] => 0
+    [application] => 
+    [application_fee] => 
+    [application_fee_amount] => 
+    [balance_transaction] => txn_3K9vmMDw5fiAZsOq1oDhixqY
+    [billing_details] => Stripe\StripeObject Object
+        (
+            [address] => Stripe\StripeObject Object
+                (
+                    [city] => 
+                    [country] => 
+                    [line1] => 
+                    [line2] => 
+                    [postal_code] => 
+                    [state] => 
+                )
+
+            [email] => 
+            [name] => a.cabrera90@hotmail.com
+            [phone] => 
+        )
+
+    [calculated_statement_descriptor] => FIND MY DOG PR
+    [captured] => 1
+    [created] => 1640283158
+    [currency] => usd
+    [customer] => 
+    [description] => Destaque del reporte 23272
+    [destination] => 
+    [dispute] => 
+    [disputed] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => Array
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 1
+    [metadata] => Stripe\StripeObject Object
+        (
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => Stripe\StripeObject Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [payment_intent] => 
+    [payment_method] => card_1K9vmIDw5fiAZsOqZOJBwMA3
+    [payment_method_details] => Stripe\StripeObject Object
+        (
+            [card] => Stripe\StripeObject Object
+                (
+                    [brand] => visa
+                    [checks] => Stripe\StripeObject Object
+                        (
+                            [address_line1_check] => 
+                            [address_postal_code_check] => 
+                            [cvc_check] => pass
+                        )
+
+                    [country] => US
+                    [exp_month] => 2
+                    [exp_year] => 2025
+                    [fingerprint] => rsaoOoe5DpmPPhro
+                    [funding] => debit
+                    [installments] => 
+                    [last4] => 7519
+                    [network] => visa
+                    [three_d_secure] => 
+                    [wallet] => 
+                )
+
+            [type] => card
+        )
+
+    [receipt_email] => 
+    [receipt_number] => 
+    [receipt_url] => https://pay.stripe.com/receipts/acct_1Ad2wkDw5fiAZsOq/ch_3K9vmMDw5fiAZsOq19o6Btkf/rcpt_KpaylSDGEgtMca2liUM0YNh8qIgogAo
+    [refunded] => 
+    [refunds] => Stripe\Collection Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_3K9vmMDw5fiAZsOq19o6Btkf/refunds
+        )
+
+    [review] => 
+    [shipping] => 
+    [source] => Stripe\Card Object
+        (
+            [id] => card_1K9vmIDw5fiAZsOqZOJBwMA3
+            [object] => card
+            [address_city] => 
+            [address_country] => 
+            [address_line1] => 
+            [address_line1_check] => 
+            [address_line2] => 
+            [address_state] => 
+            [address_zip] => 
+            [address_zip_check] => 
+            [brand] => Visa
+            [country] => US
+            [customer] => 
+            [cvc_check] => pass
+            [dynamic_last4] => 
+            [exp_month] => 2
+            [exp_year] => 2025
+            [fingerprint] => rsaoOoe5DpmPPhro
+            [funding] => debit
+            [last4] => 7519
+            [metadata] => Stripe\StripeObject Object
+                (
+                )
+
+            [name] => a.cabrera90@hotmail.com
+            [tokenization_method] => 
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [statement_descriptor_suffix] => 
+    [status] => succeeded
+    [transfer_data] => 
+    [transfer_group] => 
+)
+
+====================================================================================================
+====================================================================================================
+INTENTO DE PAGO2021-12-24 14:17:33
+DATOS ENVIADOS A STRIPE
+amount=20
+currency=usd
+id_reporte=23289
+====================================================================================================
+====================================================================================================
+DATOS ENVIADOS A STRIPE
+Array
+(
+    [amount] => 2000
+    [currency] => usd
+    [source] => tok_1KAIKbDw5fiAZsOqaZk85mHk
+    [description] => Destaque del reporte 23289
+    [fecha] => 24-12-2021 14:17:35
+)
+
+RESPUESTA DE STRIPE
+Stripe\Charge Object
+(
+    [id] => ch_3KAIKfDw5fiAZsOq1Ua8Fqtq
+    [object] => charge
+    [amount] => 2000
+    [amount_captured] => 2000
+    [amount_refunded] => 0
+    [application] => 
+    [application_fee] => 
+    [application_fee_amount] => 
+    [balance_transaction] => txn_3KAIKfDw5fiAZsOq1y4i4D06
+    [billing_details] => Stripe\StripeObject Object
+        (
+            [address] => Stripe\StripeObject Object
+                (
+                    [city] => 
+                    [country] => 
+                    [line1] => 
+                    [line2] => 
+                    [postal_code] => 
+                    [state] => 
+                )
+
+            [email] => 
+            [name] => idarisescudero2020@gmail.com
+            [phone] => 
+        )
+
+    [calculated_statement_descriptor] => FIND MY DOG PR
+    [captured] => 1
+    [created] => 1640369853
+    [currency] => usd
+    [customer] => 
+    [description] => Destaque del reporte 23289
+    [destination] => 
+    [dispute] => 
+    [disputed] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => Array
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 1
+    [metadata] => Stripe\StripeObject Object
+        (
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => Stripe\StripeObject Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [payment_intent] => 
+    [payment_method] => card_1KAIKaDw5fiAZsOqQ7TH81Xx
+    [payment_method_details] => Stripe\StripeObject Object
+        (
+            [card] => Stripe\StripeObject Object
+                (
+                    [brand] => visa
+                    [checks] => Stripe\StripeObject Object
+                        (
+                            [address_line1_check] => 
+                            [address_postal_code_check] => 
+                            [cvc_check] => pass
+                        )
+
+                    [country] => PR
+                    [exp_month] => 5
+                    [exp_year] => 2025
+                    [fingerprint] => 7r83mkfbQsD0spKu
+                    [funding] => debit
+                    [installments] => 
+                    [last4] => 4026
+                    [network] => visa
+                    [three_d_secure] => 
+                    [wallet] => 
+                )
+
+            [type] => card
+        )
+
+    [receipt_email] => 
+    [receipt_number] => 
+    [receipt_url] => https://pay.stripe.com/receipts/acct_1Ad2wkDw5fiAZsOq/ch_3KAIKfDw5fiAZsOq1Ua8Fqtq/rcpt_KpyH9PQmYux1fNAPzlTqU6KRIOEXtis
+    [refunded] => 
+    [refunds] => Stripe\Collection Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_3KAIKfDw5fiAZsOq1Ua8Fqtq/refunds
+        )
+
+    [review] => 
+    [shipping] => 
+    [source] => Stripe\Card Object
+        (
+            [id] => card_1KAIKaDw5fiAZsOqQ7TH81Xx
+            [object] => card
+            [address_city] => 
+            [address_country] => 
+            [address_line1] => 
+            [address_line1_check] => 
+            [address_line2] => 
+            [address_state] => 
+            [address_zip] => 
+            [address_zip_check] => 
+            [brand] => Visa
+            [country] => PR
+            [customer] => 
+            [cvc_check] => pass
+            [dynamic_last4] => 
+            [exp_month] => 5
+            [exp_year] => 2025
+            [fingerprint] => 7r83mkfbQsD0spKu
+            [funding] => debit
+            [last4] => 4026
+            [metadata] => Stripe\StripeObject Object
+                (
+                )
+
+            [name] => idarisescudero2020@gmail.com
+            [tokenization_method] => 
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [statement_descriptor_suffix] => 
+    [status] => succeeded
+    [transfer_data] => 
+    [transfer_group] => 
+)
+
+====================================================================================================
+====================================================================================================
+INTENTO DE PAGO2021-12-25 08:36:29
+DATOS ENVIADOS A STRIPE
+amount=15
+currency=usd
+id_reporte=23301
+====================================================================================================
+====================================================================================================
+DATOS ENVIADOS A STRIPE
+Array
+(
+    [amount] => 1500
+    [currency] => usd
+    [source] => tok_1KAZU2Dw5fiAZsOqb5EyvFWk
+    [description] => Destaque del reporte 23301
+    [fecha] => 25-12-2021 08:36:30
+)
+
+RESPUESTA DE STRIPE
+Stripe\Charge Object
+(
+    [id] => ch_3KAZU9Dw5fiAZsOq2w0LVsTL
+    [object] => charge
+    [amount] => 1500
+    [amount_captured] => 1500
+    [amount_refunded] => 0
+    [application] => 
+    [application_fee] => 
+    [application_fee_amount] => 
+    [balance_transaction] => txn_3KAZU9Dw5fiAZsOq2Jm7QqvV
+    [billing_details] => Stripe\StripeObject Object
+        (
+            [address] => Stripe\StripeObject Object
+                (
+                    [city] => 
+                    [country] => 
+                    [line1] => 
+                    [line2] => 
+                    [postal_code] => 
+                    [state] => 
+                )
+
+            [email] => 
+            [name] => vnmaldonado08@gmail.com
+            [phone] => 
+        )
+
+    [calculated_statement_descriptor] => FIND MY DOG PR
+    [captured] => 1
+    [created] => 1640435789
+    [currency] => usd
+    [customer] => 
+    [description] => Destaque del reporte 23301
+    [destination] => 
+    [dispute] => 
+    [disputed] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => Array
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 1
+    [metadata] => Stripe\StripeObject Object
+        (
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => Stripe\StripeObject Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [payment_intent] => 
+    [payment_method] => card_1KAZU2Dw5fiAZsOqSVzJmor1
+    [payment_method_details] => Stripe\StripeObject Object
+        (
+            [card] => Stripe\StripeObject Object
+                (
+                    [brand] => visa
+                    [checks] => Stripe\StripeObject Object
+                        (
+                            [address_line1_check] => 
+                            [address_postal_code_check] => 
+                            [cvc_check] => pass
+                        )
+
+                    [country] => PR
+                    [exp_month] => 10
+                    [exp_year] => 2023
+                    [fingerprint] => 7UTnfWkq3FhKXmv6
+                    [funding] => credit
+                    [installments] => 
+                    [last4] => 5031
+                    [network] => visa
+                    [three_d_secure] => 
+                    [wallet] => 
+                )
+
+            [type] => card
+        )
+
+    [receipt_email] => 
+    [receipt_number] => 
+    [receipt_url] => https://pay.stripe.com/receipts/acct_1Ad2wkDw5fiAZsOq/ch_3KAZU9Dw5fiAZsOq2w0LVsTL/rcpt_KqG0edAqW7uIkYwo32Qrh9DsaiJye9X
+    [refunded] => 
+    [refunds] => Stripe\Collection Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_3KAZU9Dw5fiAZsOq2w0LVsTL/refunds
+        )
+
+    [review] => 
+    [shipping] => 
+    [source] => Stripe\Card Object
+        (
+            [id] => card_1KAZU2Dw5fiAZsOqSVzJmor1
+            [object] => card
+            [address_city] => 
+            [address_country] => 
+            [address_line1] => 
+            [address_line1_check] => 
+            [address_line2] => 
+            [address_state] => 
+            [address_zip] => 
+            [address_zip_check] => 
+            [brand] => Visa
+            [country] => PR
+            [customer] => 
+            [cvc_check] => pass
+            [dynamic_last4] => 
+            [exp_month] => 10
+            [exp_year] => 2023
+            [fingerprint] => 7UTnfWkq3FhKXmv6
+            [funding] => credit
+            [last4] => 5031
+            [metadata] => Stripe\StripeObject Object
+                (
+                )
+
+            [name] => vnmaldonado08@gmail.com
+            [tokenization_method] => 
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [statement_descriptor_suffix] => 
+    [status] => succeeded
+    [transfer_data] => 
+    [transfer_group] => 
+)
+
+====================================================================================================
+====================================================================================================
+INTENTO DE PAGO2021-12-25 13:15:42
+DATOS ENVIADOS A STRIPE
+amount=1
+currency=usd
+id_reporte=23312
+====================================================================================================
+====================================================================================================
+INTENTO DE PAGO2021-12-25 13:23:44
+DATOS ENVIADOS A STRIPE
+amount=20
+currency=usd
+id_reporte=0
+====================================================================================================
+====================================================================================================
+DATOS ENVIADOS A STRIPE
+Array
+(
+    [amount] => 2000
+    [currency] => usd
+    [source] => tok_1KAdy4Dw5fiAZsOqxijlMmsF
+    [description] => donación
+    [fecha] => 25-12-2021 13:23:45
+)
+
+RESPUESTA DE STRIPE
+Stripe\Charge Object
+(
+    [id] => ch_3KAdy8Dw5fiAZsOq2ppGIYVy
+    [object] => charge
+    [amount] => 2000
+    [amount_captured] => 2000
+    [amount_refunded] => 0
+    [application] => 
+    [application_fee] => 
+    [application_fee_amount] => 
+    [balance_transaction] => txn_3KAdy8Dw5fiAZsOq2dIJiWMv
+    [billing_details] => Stripe\StripeObject Object
+        (
+            [address] => Stripe\StripeObject Object
+                (
+                    [city] => 
+                    [country] => 
+                    [line1] => 
+                    [line2] => 
+                    [postal_code] => 
+                    [state] => 
+                )
+
+            [email] => 
+            [name] => benjie-13@live.com
+            [phone] => 
+        )
+
+    [calculated_statement_descriptor] => FIND MY DOG PR
+    [captured] => 1
+    [created] => 1640453024
+    [currency] => usd
+    [customer] => 
+    [description] => donación
+    [destination] => 
+    [dispute] => 
+    [disputed] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => Array
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 1
+    [metadata] => Stripe\StripeObject Object
+        (
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => Stripe\StripeObject Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [payment_intent] => 
+    [payment_method] => card_1KAdy4Dw5fiAZsOqTTGokS4Y
+    [payment_method_details] => Stripe\StripeObject Object
+        (
+            [card] => Stripe\StripeObject Object
+                (
+                    [brand] => discover
+                    [checks] => Stripe\StripeObject Object
+                        (
+                            [address_line1_check] => 
+                            [address_postal_code_check] => 
+                            [cvc_check] => pass
+                        )
+
+                    [country] => US
+                    [exp_month] => 5
+                    [exp_year] => 2024
+                    [fingerprint] => D8EeZDU3pZgd5iB6
+                    [funding] => credit
+                    [installments] => 
+                    [last4] => 9193
+                    [network] => discover
+                    [three_d_secure] => 
+                    [wallet] => 
+                )
+
+            [type] => card
+        )
+
+    [receipt_email] => 
+    [receipt_number] => 
+    [receipt_url] => https://pay.stripe.com/receipts/acct_1Ad2wkDw5fiAZsOq/ch_3KAdy8Dw5fiAZsOq2ppGIYVy/rcpt_KqKdvLTfieOVtdxdHCHt7nPtRDHi9cf
+    [refunded] => 
+    [refunds] => Stripe\Collection Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_3KAdy8Dw5fiAZsOq2ppGIYVy/refunds
+        )
+
+    [review] => 
+    [shipping] => 
+    [source] => Stripe\Card Object
+        (
+            [id] => card_1KAdy4Dw5fiAZsOqTTGokS4Y
+            [object] => card
+            [address_city] => 
+            [address_country] => 
+            [address_line1] => 
+            [address_line1_check] => 
+            [address_line2] => 
+            [address_state] => 
+            [address_zip] => 
+            [address_zip_check] => 
+            [brand] => Discover
+            [country] => US
+            [customer] => 
+            [cvc_check] => pass
+            [dynamic_last4] => 
+            [exp_month] => 5
+            [exp_year] => 2024
+            [fingerprint] => D8EeZDU3pZgd5iB6
+            [funding] => credit
+            [last4] => 9193
+            [metadata] => Stripe\StripeObject Object
+                (
+                )
+
+            [name] => benjie-13@live.com
+            [tokenization_method] => 
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [statement_descriptor_suffix] => 
+    [status] => succeeded
+    [transfer_data] => 
+    [transfer_group] => 
+)
+
+====================================================================================================
+====================================================================================================
+INTENTO DE PAGO2021-12-25 19:08:19
+DATOS ENVIADOS A STRIPE
+amount=15
+currency=usd
+id_reporte=23326
+====================================================================================================
+====================================================================================================
+DATOS ENVIADOS A STRIPE
+Array
+(
+    [amount] => 1500
+    [currency] => usd
+    [source] => tok_1KAjLXDw5fiAZsOq4Zs4C8kp
+    [description] => Destaque del reporte 23326
+    [fecha] => 25-12-2021 19:08:20
+)
+
+RESPUESTA DE STRIPE
+Stripe\Charge Object
+(
+    [id] => ch_3KAjLbDw5fiAZsOq1BigH4I5
+    [object] => charge
+    [amount] => 1500
+    [amount_captured] => 1500
+    [amount_refunded] => 0
+    [application] => 
+    [application_fee] => 
+    [application_fee_amount] => 
+    [balance_transaction] => txn_3KAjLbDw5fiAZsOq1CloPTNc
+    [billing_details] => Stripe\StripeObject Object
+        (
+            [address] => Stripe\StripeObject Object
+                (
+                    [city] => 
+                    [country] => 
+                    [line1] => 
+                    [line2] => 
+                    [postal_code] => 
+                    [state] => 
+                )
+
+            [email] => 
+            [name] => marac12@gmail.com
+            [phone] => 
+        )
+
+    [calculated_statement_descriptor] => FIND MY DOG PR
+    [captured] => 1
+    [created] => 1640473699
+    [currency] => usd
+    [customer] => 
+    [description] => Destaque del reporte 23326
+    [destination] => 
+    [dispute] => 
+    [disputed] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => Array
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 1
+    [metadata] => Stripe\StripeObject Object
+        (
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => Stripe\StripeObject Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [payment_intent] => 
+    [payment_method] => card_1KAjLXDw5fiAZsOqzwqBRBJP
+    [payment_method_details] => Stripe\StripeObject Object
+        (
+            [card] => Stripe\StripeObject Object
+                (
+                    [brand] => visa
+                    [checks] => Stripe\StripeObject Object
+                        (
+                            [address_line1_check] => 
+                            [address_postal_code_check] => 
+                            [cvc_check] => pass
+                        )
+
+                    [country] => US
+                    [exp_month] => 6
+                    [exp_year] => 2026
+                    [fingerprint] => 8RVuGdeGf2otqHN1
+                    [funding] => credit
+                    [installments] => 
+                    [last4] => 1231
+                    [network] => visa
+                    [three_d_secure] => 
+                    [wallet] => 
+                )
+
+            [type] => card
+        )
+
+    [receipt_email] => 
+    [receipt_number] => 
+    [receipt_url] => https://pay.stripe.com/receipts/acct_1Ad2wkDw5fiAZsOq/ch_3KAjLbDw5fiAZsOq1BigH4I5/rcpt_KqQBgQVZwMMQKQP8IVrDb2jNfOKizB3
+    [refunded] => 
+    [refunds] => Stripe\Collection Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_3KAjLbDw5fiAZsOq1BigH4I5/refunds
+        )
+
+    [review] => 
+    [shipping] => 
+    [source] => Stripe\Card Object
+        (
+            [id] => card_1KAjLXDw5fiAZsOqzwqBRBJP
+            [object] => card
+            [address_city] => 
+            [address_country] => 
+            [address_line1] => 
+            [address_line1_check] => 
+            [address_line2] => 
+            [address_state] => 
+            [address_zip] => 
+            [address_zip_check] => 
+            [brand] => Visa
+            [country] => US
+            [customer] => 
+            [cvc_check] => pass
+            [dynamic_last4] => 
+            [exp_month] => 6
+            [exp_year] => 2026
+            [fingerprint] => 8RVuGdeGf2otqHN1
+            [funding] => credit
+            [last4] => 1231
+            [metadata] => Stripe\StripeObject Object
+                (
+                )
+
+            [name] => marac12@gmail.com
+            [tokenization_method] => 
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [statement_descriptor_suffix] => 
+    [status] => succeeded
+    [transfer_data] => 
+    [transfer_group] => 
+)
+
+====================================================================================================
+====================================================================================================
+INTENTO DE PAGO2021-12-25 23:25:33
+DATOS ENVIADOS A STRIPE
+amount=15
+currency=usd
+id_reporte=0
+====================================================================================================
+====================================================================================================
+DATOS ENVIADOS A STRIPE
+Array
+(
+    [amount] => 1500
+    [currency] => usd
+    [source] => tok_1KAnMTDw5fiAZsOqigUdi4PT
+    [description] => donación
+    [fecha] => 25-12-2021 23:25:34
+)
+
+RESPUESTA DE STRIPE
+Stripe\Charge Object
+(
+    [id] => ch_3KAnMXDw5fiAZsOq2FuAUiFg
+    [object] => charge
+    [amount] => 1500
+    [amount_captured] => 1500
+    [amount_refunded] => 0
+    [application] => 
+    [application_fee] => 
+    [application_fee_amount] => 
+    [balance_transaction] => txn_3KAnMXDw5fiAZsOq2feIFwD5
+    [billing_details] => Stripe\StripeObject Object
+        (
+            [address] => Stripe\StripeObject Object
+                (
+                    [city] => 
+                    [country] => 
+                    [line1] => 
+                    [line2] => 
+                    [postal_code] => 
+                    [state] => 
+                )
+
+            [email] => 
+            [name] => mariacaban@gmail.com
+            [phone] => 
+        )
+
+    [calculated_statement_descriptor] => FIND MY DOG PR
+    [captured] => 1
+    [created] => 1640489133
+    [currency] => usd
+    [customer] => 
+    [description] => donación
+    [destination] => 
+    [dispute] => 
+    [disputed] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => Array
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 1
+    [metadata] => Stripe\StripeObject Object
+        (
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => Stripe\StripeObject Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [payment_intent] => 
+    [payment_method] => card_1KAnMTDw5fiAZsOqQta1TV7a
+    [payment_method_details] => Stripe\StripeObject Object
+        (
+            [card] => Stripe\StripeObject Object
+                (
+                    [brand] => mastercard
+                    [checks] => Stripe\StripeObject Object
+                        (
+                            [address_line1_check] => 
+                            [address_postal_code_check] => 
+                            [cvc_check] => pass
+                        )
+
+                    [country] => US
+                    [exp_month] => 1
+                    [exp_year] => 2023
+                    [fingerprint] => z3IekPqyxbA06C6C
+                    [funding] => credit
+                    [installments] => 
+                    [last4] => 6367
+                    [network] => mastercard
+                    [three_d_secure] => 
+                    [wallet] => 
+                )
+
+            [type] => card
+        )
+
+    [receipt_email] => 
+    [receipt_number] => 
+    [receipt_url] => https://pay.stripe.com/receipts/acct_1Ad2wkDw5fiAZsOq/ch_3KAnMXDw5fiAZsOq2FuAUiFg/rcpt_KqULfvDowaoRp8yFlg6pudrF7ifNS07
+    [refunded] => 
+    [refunds] => Stripe\Collection Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_3KAnMXDw5fiAZsOq2FuAUiFg/refunds
+        )
+
+    [review] => 
+    [shipping] => 
+    [source] => Stripe\Card Object
+        (
+            [id] => card_1KAnMTDw5fiAZsOqQta1TV7a
+            [object] => card
+            [address_city] => 
+            [address_country] => 
+            [address_line1] => 
+            [address_line1_check] => 
+            [address_line2] => 
+            [address_state] => 
+            [address_zip] => 
+            [address_zip_check] => 
+            [brand] => MasterCard
+            [country] => US
+            [customer] => 
+            [cvc_check] => pass
+            [dynamic_last4] => 
+            [exp_month] => 1
+            [exp_year] => 2023
+            [fingerprint] => z3IekPqyxbA06C6C
+            [funding] => credit
+            [last4] => 6367
+            [metadata] => Stripe\StripeObject Object
+                (
+                )
+
+            [name] => mariacaban@gmail.com
+            [tokenization_method] => 
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [statement_descriptor_suffix] => 
+    [status] => succeeded
+    [transfer_data] => 
+    [transfer_group] => 
+)
+
+====================================================================================================
+====================================================================================================
+INTENTO DE PAGO2021-12-26 21:24:59
+DATOS ENVIADOS A STRIPE
+amount=5
+currency=usd
+id_reporte=23370
+====================================================================================================
+====================================================================================================
+INTENTO DE PAGO2021-12-26 22:49:15
+DATOS ENVIADOS A STRIPE
+amount=15
+currency=usd
+id_reporte=0
+====================================================================================================
+====================================================================================================
+DATOS ENVIADOS A STRIPE
+Array
+(
+    [amount] => 1500
+    [currency] => usd
+    [source] => tok_1KB9GuDw5fiAZsOqX784zDJI
+    [description] => donación
+    [fecha] => 26-12-2021 22:49:17
+)
+
+RESPUESTA DE STRIPE
+Stripe\Charge Object
+(
+    [id] => ch_3KB9GyDw5fiAZsOq21hJ6PZo
+    [object] => charge
+    [amount] => 1500
+    [amount_captured] => 1500
+    [amount_refunded] => 0
+    [application] => 
+    [application_fee] => 
+    [application_fee_amount] => 
+    [balance_transaction] => txn_3KB9GyDw5fiAZsOq2SVvi4C5
+    [billing_details] => Stripe\StripeObject Object
+        (
+            [address] => Stripe\StripeObject Object
+                (
+                    [city] => 
+                    [country] => 
+                    [line1] => 
+                    [line2] => 
+                    [postal_code] => 
+                    [state] => 
+                )
+
+            [email] => 
+            [name] => rxalvarez56@yahoo.com
+            [phone] => 
+        )
+
+    [calculated_statement_descriptor] => FIND MY DOG PR
+    [captured] => 1
+    [created] => 1640573356
+    [currency] => usd
+    [customer] => 
+    [description] => donación
+    [destination] => 
+    [dispute] => 
+    [disputed] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => Array
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 1
+    [metadata] => Stripe\StripeObject Object
+        (
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => Stripe\StripeObject Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [payment_intent] => 
+    [payment_method] => card_1KB9GtDw5fiAZsOqjawDxE5f
+    [payment_method_details] => Stripe\StripeObject Object
+        (
+            [card] => Stripe\StripeObject Object
+                (
+                    [brand] => mastercard
+                    [checks] => Stripe\StripeObject Object
+                        (
+                            [address_line1_check] => 
+                            [address_postal_code_check] => 
+                            [cvc_check] => pass
+                        )
+
+                    [country] => PR
+                    [exp_month] => 4
+                    [exp_year] => 2024
+                    [fingerprint] => 02NFRlPBl3IiHCJk
+                    [funding] => credit
+                    [installments] => 
+                    [last4] => 8909
+                    [network] => mastercard
+                    [three_d_secure] => 
+                    [wallet] => 
+                )
+
+            [type] => card
+        )
+
+    [receipt_email] => 
+    [receipt_number] => 
+    [receipt_url] => https://pay.stripe.com/receipts/acct_1Ad2wkDw5fiAZsOq/ch_3KB9GyDw5fiAZsOq21hJ6PZo/rcpt_KqqyN1T4mu8S7MKncRh8ZOadiO4QkfC
+    [refunded] => 
+    [refunds] => Stripe\Collection Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_3KB9GyDw5fiAZsOq21hJ6PZo/refunds
+        )
+
+    [review] => 
+    [shipping] => 
+    [source] => Stripe\Card Object
+        (
+            [id] => card_1KB9GtDw5fiAZsOqjawDxE5f
+            [object] => card
+            [address_city] => 
+            [address_country] => 
+            [address_line1] => 
+            [address_line1_check] => 
+            [address_line2] => 
+            [address_state] => 
+            [address_zip] => 
+            [address_zip_check] => 
+            [brand] => MasterCard
+            [country] => PR
+            [customer] => 
+            [cvc_check] => pass
+            [dynamic_last4] => 
+            [exp_month] => 4
+            [exp_year] => 2024
+            [fingerprint] => 02NFRlPBl3IiHCJk
+            [funding] => credit
+            [last4] => 8909
+            [metadata] => Stripe\StripeObject Object
+                (
+                )
+
+            [name] => rxalvarez56@yahoo.com
+            [tokenization_method] => 
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [statement_descriptor_suffix] => 
+    [status] => succeeded
+    [transfer_data] => 
+    [transfer_group] => 
+)
+
+====================================================================================================
+====================================================================================================
+INTENTO DE PAGO2021-12-28 20:01:10
+DATOS ENVIADOS A STRIPE
+amount=15
+currency=usd
+id_reporte=23419
+====================================================================================================
+====================================================================================================
+DATOS ENVIADOS A STRIPE
+Array
+(
+    [amount] => 1500
+    [currency] => usd
+    [source] => tok_1KBpbMDw5fiAZsOqBv0UndyS
+    [description] => Destaque del reporte 23419
+    [fecha] => 28-12-2021 20:01:12
+)
+
+RESPUESTA DE STRIPE
+Stripe\Charge Object
+(
+    [id] => ch_3KBpbPDw5fiAZsOq0dL8j5Fc
+    [object] => charge
+    [amount] => 1500
+    [amount_captured] => 1500
+    [amount_refunded] => 0
+    [application] => 
+    [application_fee] => 
+    [application_fee_amount] => 
+    [balance_transaction] => txn_3KBpbPDw5fiAZsOq0MONafR8
+    [billing_details] => Stripe\StripeObject Object
+        (
+            [address] => Stripe\StripeObject Object
+                (
+                    [city] => 
+                    [country] => 
+                    [line1] => 
+                    [line2] => 
+                    [postal_code] => 
+                    [state] => 
+                )
+
+            [email] => 
+            [name] => johneriveracolon@gmail.com
+            [phone] => 
+        )
+
+    [calculated_statement_descriptor] => FIND MY DOG PR
+    [captured] => 1
+    [created] => 1640736071
+    [currency] => usd
+    [customer] => 
+    [description] => Destaque del reporte 23419
+    [destination] => 
+    [dispute] => 
+    [disputed] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => Array
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 1
+    [metadata] => Stripe\StripeObject Object
+        (
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => Stripe\StripeObject Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [payment_intent] => 
+    [payment_method] => card_1KBpbLDw5fiAZsOqaKKjzAkv
+    [payment_method_details] => Stripe\StripeObject Object
+        (
+            [card] => Stripe\StripeObject Object
+                (
+                    [brand] => visa
+                    [checks] => Stripe\StripeObject Object
+                        (
+                            [address_line1_check] => 
+                            [address_postal_code_check] => 
+                            [cvc_check] => pass
+                        )
+
+                    [country] => PR
+                    [exp_month] => 10
+                    [exp_year] => 2023
+                    [fingerprint] => tKE2tb8TPxud7xrX
+                    [funding] => credit
+                    [installments] => 
+                    [last4] => 2216
+                    [network] => visa
+                    [three_d_secure] => 
+                    [wallet] => 
+                )
+
+            [type] => card
+        )
+
+    [receipt_email] => 
+    [receipt_number] => 
+    [receipt_url] => https://pay.stripe.com/receipts/acct_1Ad2wkDw5fiAZsOq/ch_3KBpbPDw5fiAZsOq0dL8j5Fc/rcpt_KrYisMFzHJLZ3Qu8tpdS6zbhrw83Iyh
+    [refunded] => 
+    [refunds] => Stripe\Collection Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_3KBpbPDw5fiAZsOq0dL8j5Fc/refunds
+        )
+
+    [review] => 
+    [shipping] => 
+    [source] => Stripe\Card Object
+        (
+            [id] => card_1KBpbLDw5fiAZsOqaKKjzAkv
+            [object] => card
+            [address_city] => 
+            [address_country] => 
+            [address_line1] => 
+            [address_line1_check] => 
+            [address_line2] => 
+            [address_state] => 
+            [address_zip] => 
+            [address_zip_check] => 
+            [brand] => Visa
+            [country] => PR
+            [customer] => 
+            [cvc_check] => pass
+            [dynamic_last4] => 
+            [exp_month] => 10
+            [exp_year] => 2023
+            [fingerprint] => tKE2tb8TPxud7xrX
+            [funding] => credit
+            [last4] => 2216
+            [metadata] => Stripe\StripeObject Object
+                (
+                )
+
+            [name] => johneriveracolon@gmail.com
+            [tokenization_method] => 
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [statement_descriptor_suffix] => 
+    [status] => succeeded
+    [transfer_data] => 
+    [transfer_group] => 
+)
+
+====================================================================================================

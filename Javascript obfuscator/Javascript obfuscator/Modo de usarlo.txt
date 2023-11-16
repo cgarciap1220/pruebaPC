@@ -1,0 +1,8 @@
+﻿node ./node_modules/javascript-obfuscator/bin/javascript-obfuscator ./Archivos --output ./ArchivosAltoDesempenio --compact true --control-flow-flattening false --dead-code-injection false --debug-protection true --debug-protection-interval false --disable-console-output true --identifier-names-generator hexadecimal --log false --rename-global false --rotate-string-array true --self-defending true --string-array true --string-array-encoding false --string-array-threshold 0.75 --unicode-scape-sequency false
+
+
+node ./node_modules/javascript-obfuscator/bin/javascript-obfuscator ./findmydog --output ./ArchivosAltoDesempenioFMD --compact true --control-flow-flattening false --dead-code-injection false --debug-protection true --debug-protection-interval false --disable-console-output true --identifier-names-generator hexadecimal --log false --rename-global false --rotate-string-array true --self-defending true --string-array true --string-array-encoding false --string-array-threshold 0.75 --unicode-scape-sequency false
+
+
+
+PÁGINA: https://www.npmjs.com/package/javascript-obfuscator
